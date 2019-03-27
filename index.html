@@ -49,28 +49,46 @@
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>I love my wife</em></p>
+  <h3 class="d-flex justify-content-center">ABOUT ME</h3>
+  <p class="d-flex justify-content-center"><em>I love my wife</em></p>
   <p>Hello my name is David Giraldo, I am an Electronic Engineer with emphasis on mechatronics and telecommunications. Interested in web development areas, blockchain and design innovation.</p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
+
+  <div class="row">
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
       <img src="/img/david.jpg" id="davidPhoto" alt="Photo of Me"  height="200">
     </div>
 
     <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. Here you can see some of my work and also my skills, my main focus is on Front End Web Development.</p>
-      <div class="row">
-        <div class="col-md-4">
-          <span class="fa fa-html5 justify-content-center" id="htmlIcon"></span>
+    <div class="col-md-6 d-none d-md-block">
+      <p>Welcome to my website. Here you can see some of my work and also my skills, my main focus is on Front End Web Development. <br><br></p>
+      <div class="row logo-container justify-content-center">
+        <div class="col-md-3 justify-content-center">
+          <img class="img-fluid" src="/img/HTML5.png" alt="HTML5 logo">
         </div>
 
-        <div class="col-md-4 justify-content-center">
-          <span class="fa fa-css3" id="cssIcon" ></span>
+        <div class="col-md-3 justify-content-center">
+          <img class="img-fluid" src="/img/css.png" alt="CSS logo" >
         </div>
 
-        <div class="col-md-4 justify-content-center">
-          <span class="fa fa-js"></span>
+        <div class="col-md-3 justify-content-center">
+          <img class="img-fluid" src="/img/javascript.png" alt="JavaScript logo" >
+        </div>
+
+      </div>
+
+      <div class="row  logo-container justify-content-center">
+        <div class="col-md-3 justify-content-center">
+          <img class="img-fluid" src="/img/bootstrap.png" alt="Boostrap logo" >
+        </div>
+
+
+
+        <div class="col-md-3 justify-content-center">
+          <img class="img-fluid" src="/img/react.png" alt="React logo" >
+        </div>
+
+        <div class="col-md-3 justify-content-center">
+          <img class="img-fluid" src="/img/node.png" alt="Node logo" >
         </div>
       </div>
 
@@ -93,22 +111,16 @@
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Partners
+
+  <div class="w3-half w3-section">
+    <span class="w3-xlarge">Bachelor of Science in Electronic Engineering</span><br>
+    Pontificia Universidad Javeriana Cali
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
-    Projects Done
+  <div class="w3-half w3-section">
+    <span class="w3-xlarge">Specialization in Full-Stack Web Development with React</span><br>
+    The Hong Kong University of Science and Technology (Online)
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">89+</span><br>
-    Happy Clients
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
-    Meetings
-  </div>
+
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
@@ -121,7 +133,7 @@
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Here are some of my latest  work.<br> Click on the images to make them bigger</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="row align-content-center">
