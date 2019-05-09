@@ -26,7 +26,8 @@
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "install": "^0.12.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
+    "mdbootstrap": "^4.8.0",
     "npm": "^6.9.0",
     "popper.js": "^1.14.7"
   }
