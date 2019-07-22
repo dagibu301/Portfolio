@@ -15,7 +15,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/img/bg1.jpg');
+  background-image: url('/img/971.jpg');
   min-height: 100%;
 }
 
@@ -64,4 +64,8 @@ body, html {
 
 .work-name{
   text-align: center;
+}
+
+.intial-prhase{
+  font-size: 6vw;
 }
